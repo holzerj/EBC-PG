@@ -1,0 +1,100 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+/* red-hat-text-regular - latin */
+@font-face {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/fonts/red-hat-text-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/red-hat-text-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* red-hat-text-500 - latin */
+  @font-face {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('/fonts/red-hat-text-v3-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/red-hat-text-v3-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* red-hat-text-700 - latin */
+  @font-face {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('/fonts/red-hat-text-v3-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/red-hat-text-v3-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* red-hat-display-regular - latin */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/fonts/red-hat-display-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/red-hat-display-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* red-hat-display-500 - latin */
+  @font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('/fonts/red-hat-display-v4-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/red-hat-display-v4-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* red-hat-display-700 - latin */
+  @font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('/fonts/red-hat-display-v4-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/red-hat-display-v4-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* red-hat-display-900 - latin */
+  @font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('/fonts/red-hat-display-v4-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/red-hat-display-v4-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'Red Hat Display Black';
+    src: local(''),
+         url('/RedHatDisplay/RedHatDisplay-Black.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/RedHatDisplay/RedHatDisplay-Black.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'Red Hat Display Medium';
+    src: local(''),
+         url('/RedHatDisplay/RedHatDisplay-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/RedHatDisplay/RedHatDisplay-Medium.woff2') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  .infrastructure{
+    font-size:12px;
+    letter-spacing:1px;
+    line-height:16px;
+  }
+
+  .infrastructure-menu{
+    font-size:14px;
+    letter-spacing:1px;
+    line-height:18px;
+  }
+}
+
+body {
+  @apply bg-rh-gray-100;
+}
